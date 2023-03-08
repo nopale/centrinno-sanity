@@ -1,5 +1,25 @@
 import story from './story'
 import category from './category'
 import tag from './tag'
+import metaData from './metaData'
+import textColumnLeft from './textColumnLeft'
+import textColumnRight from './textColumnRight'
+import imageGallery from './imageGallery'
+import video from './video'
+import customVideo from './customVideo'
+import twoImages from './twoImages'
+import audio from './audio'
 
-export const schemaTypes = [story, category, tag]
+export const schemaTypes = [
+  story,
+  category,
+  tag,
+  metaData,
+  textColumnLeft,
+  textColumnRight,
+  imageGallery,
+  video,
+  customVideo,
+  twoImages,
+  audio,
+]

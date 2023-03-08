@@ -4,14 +4,19 @@ export default {
   title: "Tag",
   fields: [
     {
-      name: "tag",
+      name: "title",
       type: "string",
-      title: "Tag",
+      title: "Title",
     },
     {
       name: "definition",
       type: "text",
       title: "Definition",
+    },
+    {
+      name: "heroImage",
+      type: "image",
+      title: "Hero Image"
     },
     {
       name: "categories",

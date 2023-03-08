@@ -4,9 +4,9 @@ export default {
   title: "Category",
   fields: [
     {
-      name: "category",
+      name: "title",
       type: "string",
-      title: "Category",
+      title: "Title",
     },
     {
       name: "definition",
@@ -14,15 +14,9 @@ export default {
       title: "Definition",
     },
     {
-      name: "tags",
-      title: "Tags",
-      type: "array",
-      of: [
-        {
-          type: "reference",
-          to: [{ type: "tag" }],
-        },
-      ],
-    },
+      name: "heroImage",
+      type: "image",
+      title: "Hero Image"
+    }
   ],
 };

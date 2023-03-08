@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'Sanity Project',
+  title: 'The Living Archive - Centrinno',
 
   projectId: 'hnte9ibh',
   dataset: 'production',
