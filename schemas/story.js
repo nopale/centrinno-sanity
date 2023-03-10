@@ -8,7 +8,6 @@ export default {
       type: 'array',
       title: 'Flexible Content',
       of: [
-        {type: 'metaData'},
         {type: 'twoImages'},
         {type: 'textColumnLeft'},
         {type: 'textColumnRight'},
@@ -17,6 +16,16 @@ export default {
         {type: 'customVideo'},
         {type: 'audio'},
       ],
+    },
+    {
+      name: 'metaData',
+      type: 'metaData',
+      title: 'Meta Data Section',
+    },
+    {
+      name: 'hero',
+      type: 'hero',
+      title: 'Hero Component',
     },
     {
       name: 'title',
